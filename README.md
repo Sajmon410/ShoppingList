@@ -1,2 +1,2 @@
 # ShoppingList
-Android application (Java)
+Android application
