@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="welcome">WELCOME:</string>
+    <string name="see_my_list">see my lista</string>
+    <string name="new_list">new lista</string>
+    <string name="save">Save</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="naslov">NASLOV</string>
+    <string name="share_list">Share lista:</string>
+    <string name="naslov_liste">Naslov liste</string>
+    <string name="ok">Ok</string>
+    <string name="welcomenaslov">Naslov:</string>
+    <string name="shared">Shared:</string>
+    <string name="zadatak">zadatak</string>
+</resources>

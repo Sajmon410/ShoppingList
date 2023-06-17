@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShowListActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:text="Naslov"
+        android:id="@+id/naslovShow"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/unos"/>
+        <Button
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:text="Add"
+            android:id="@+id/add"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_weight="10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/listaZadataka"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:id="@+id/refresh"
+        android:enabled="false"
+        android:text="REFRESH↻"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:id="@+id/home"
+        android:text="HOME"/>
+
+
+</LinearLayout>
